@@ -5,7 +5,7 @@ public class Customer {
     private String firstName;
     private String lastName;
     private String loyaltyPoints;
-    private CustomerSegment loyaltySegment;
+    private LoyaltyTier tier;
 
     public Customer() {
     }
@@ -20,8 +20,8 @@ public class Customer {
         this.loyaltyPoints = loyaltyPoints;
     }
 
-    public void setLoyaltySegment(CustomerSegment loyaltySegment) {
-        this.loyaltySegment = loyaltySegment;
+    public void setTier(LoyaltyTier tier) {
+        this.tier = tier;
     }
 
     public String getCustomerId() {
@@ -40,7 +40,7 @@ public class Customer {
         return loyaltyPoints;
     }
 
-    public CustomerSegment getLoyaltySegment() {
-        return loyaltySegment;
+    public LoyaltyTier getTier() {
+        return tier;
     }
 }

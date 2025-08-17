@@ -4,14 +4,14 @@ public enum LoyaltyTier {
 
     DIAMOND(10), GOLD(5), SILVER(3);
 
-    private int value;
+    private int discount;
 
-    LoyaltyTier(int value) {
-        this.value = value;
+    LoyaltyTier(int discount) {
+        this.discount = discount;
     }
 
-    public int getValue() {
-        return this.value;
+    public int getDiscount() {
+        return this.discount;
     }
 
 }

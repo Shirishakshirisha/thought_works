@@ -18,3 +18,24 @@ JOI Delivery, launched in 2024, is a hyperlocal delivery app designed to bring f
 ## Why they need Thoughtworks help
 As JOI Delivery continues to grow and serve more neighborhoods, we’re scaling our platform to handle increasing demand, enhance user experience, and support smarter delivery logistics. They're looking for passionate developers to help us build robust, efficient, and scalable solutions that power everything from order placement to real-time tracking.
 Your expertise will directly impact how quickly and reliably customers receive their essentials—and how smoothly local vendors and delivery partners operate within our ecosystem.
+
+## Domain/Models available
+### Item
+**Attributes:**
+id, name, description, price, category
+### Store 
+**Atrributes**
+storeId, zone, items 
+### Customer 
+**Attributes**
+customerId, firstName, lastName, loyaltyPoints, tier
+
+### Sample Request & Response Class
+#### Delivery 
+**Attributes**
+timeInMinutes, distance
+#### DeliveryPartner 
+**Attributes**
+id, name, deliveries
+
+

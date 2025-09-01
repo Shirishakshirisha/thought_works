@@ -29,7 +29,7 @@ Your expertise will directly impact how quickly and reliably customers receive t
 | DeliveryPartner | id, name, deliveries                                 |
 | Item            | id, name, description, price, category               |
 | Store           | storeId, zone, items                                 |
-| Order           |                                                      | 
+| Order           | ** To be Implemented **                                                     | 
 
 
 ## Tech Requirements

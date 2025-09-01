@@ -39,3 +39,22 @@ timeInMinutes, distance
 id, name, deliveries
 
 
+## Tech Requirements
+The project requires Java 24. If you have multiple JVMs on your machine, you might want to consider using a tool such as sdkman to handle switching between versions.
+
+### Installing Java
+Install java using homeBrew
+
+```
+brew install openjdk@24
+```
+Installing java on Windows, [refer](https://www.java.com/en/download/help/windows_manual_download.html#xd_co_f=NzA3YTZmNzAtOTEzMS00OWFiLTk2NjUtODg0NjNhMjRhMjkw~)
+
+Other ways to Download and install java, [refer](https://www.oracle.com/in/java/technologies/downloads/#java24).
+
+Verify Java Version Installed
+```
+java -version
+```
+
+

@@ -1,6 +1,7 @@
 package com.tw.joi.delivery.model;
 
 public class Delivery {
+    private int id;
     private Integer timeInMinutes;
     private int  distance;
 

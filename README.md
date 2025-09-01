@@ -20,23 +20,16 @@ As JOI Delivery continues to grow and serve more neighborhoods, we’re scaling 
 Your expertise will directly impact how quickly and reliably customers receive their essentials—and how smoothly local vendors and delivery partners operate within our ecosystem.
 
 ## Domain/Models available
-### Item
-**Attributes:**
-id, name, description, price, category
-### Store 
-**Atrributes**
-storeId, zone, items 
-### Customer 
-**Attributes**
-customerId, firstName, lastName, loyaltyPoints, tier
 
-### Sample Request & Response Class
-#### Delivery 
-**Attributes**
-timeInMinutes, distance
-#### DeliveryPartner 
-**Attributes**
-id, name, deliveries
+
+| Domain Name     | Attributes                                           |
+|-----------------|------------------------------------------------------|
+| Customer        | customerId, firstName, lastName, loyaltyPoints, tier |
+| Delivery        | id, timeInMinutes, diatance                          |
+| DeliveryPartner | id, name, deliveries                                 |
+| Item            | id, name, description, price, category               |
+| Store           | storeId, zone, items                                 |
+| Order           |                                                      | 
 
 
 ## Tech Requirements

@@ -26,7 +26,7 @@ public class seedData {
     static List<Item> items=Arrays.asList(new Item("1", "Notebook", "", 15),
                                           new Item("2","Keyboard", "",50),
                                           new Item("3","Mouse", "",25),
-                                          new Item("3","Monitor", "",75));
+                                          new Item("4","Monitor", "",75));
 
 
 

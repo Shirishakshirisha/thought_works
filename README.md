@@ -21,7 +21,6 @@ Your expertise will directly impact how quickly and reliably customers receive t
 
 ## Domain/Models available
 
-
 | Domain Name     | Attributes                                           |
 |-----------------|------------------------------------------------------|
 | Customer        | customerId, firstName, lastName, loyaltyPoints, tier |
@@ -29,7 +28,21 @@ Your expertise will directly impact how quickly and reliably customers receive t
 | DeliveryPartner | id, name, deliveries                                 |
 | Item            | id, name, description, price, category               |
 | Store           | storeId, zone, items                                 |
-| Order           | ** To be Implemented **                                                     | 
+| Order           | ** To be Implemented **                              | 
+
+## Static Data
+
+**DistanceMap**
+| Zone One | Zone Two | Distance | 
+|----------|----------|----------|
+| ZONEA    | ZONEA    | 0        |
+| ZONEA    | ZONEB    | 3        |
+| ZONEA    | ZONEC    | 6        |
+| ZONEB    | ZONEC    | 3        |
+| ZONEB    | ZONEB    | 0        |
+| ZONEB    | ZONEC    | 8        |
+| ZONEC    | ZONEC    | 0        |
+
 
 
 ## Tech Requirements

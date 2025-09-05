@@ -6,7 +6,7 @@ import com.tw.joi.delivery.model.Store;
 import java.util.Arrays;
 import java.util.List;
 
-public class seedData {
+public class StaticData {
     private final static String ZONEA="ZoneA";
     private final static String ZONEB="ZoneB";
     private final static String ZONEC="ZoneC";

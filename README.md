@@ -63,4 +63,24 @@ Verify Java Version Installed
 java -version
 ```
 
+## Running SampleProblem Class
+A sample problem class is provided as a reference to guide you in understanding the structure and approach required for writing solutions to the given problems.
+### Steps to runn the SampleProblem
+**Right-click main Method**: Right-click anywhere within the main method (or on the class name in the project explorer) and select an option like 
+```
+"Run 'SampleProblem.main()'" or "Run As > Java Application"
+```
+#### Running with the Command Line Interface (CLI)
+Open any Terminal to perform below commands. Change to the required directory.
 
+**Compile the Java source code:**
+Use the javac command to compile your .java file into bytecode 
+```
+javac SampleProblem.java
+```
+
+**Run the Java application:**
+Use the java command followed by the class name 
+```
+java CommandLineApp
+```

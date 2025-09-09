@@ -64,7 +64,7 @@ java -version
 ```
 
 ## Running SampleProblem Class
-A sample problem class is provided as a reference to guide you in understanding the structure and approach required for writing solutions to the given problems.
+A sample problem class is provided as a reference to demonstrate the structure and approach for solving the given problems. Using this as guidance, one can create their own class and implement the business logic accordingly.
 ### Steps to runn the SampleProblem
 **Right-click main Method**: Right-click anywhere within the main method (or on the class name in the project explorer) and select an option like 
 ```

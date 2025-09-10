@@ -33,6 +33,7 @@ Your expertise will directly impact how quickly and reliably customers receive t
 ## Static Data
 
 **DistanceMap**
+
 | Zone One | Zone Two | Distance | 
 |----------|----------|----------|
 | ZONEA    | ZONEA    | 0        |
@@ -43,7 +44,22 @@ Your expertise will directly impact how quickly and reliably customers receive t
 | ZONEB    | ZONEC    | 8        |
 | ZONEC    | ZONEC    | 0        |
 
+**Stores**
 
+| StoreId | ZoneId | Items               |
+|---------|--------|---------------------|
+|  1      | ZoneA  | [Milk, Eggs, Bread] |
+|  2      | ZoneB  | [Bread, Milks ]     |
+|  3      | ZoneC  | [Juice, Bread ]     |
+
+**Items**
+
+| ItemId | Name     | Description | Price |
+|--------|----------|-------------|-------|
+|  1     | Notebook | ""          | 15    |
+|  2     | Keyboard | ""          | 50    |
+|  3     | Mouse    | ""          | 25    |
+|  4     | Monitor  | ""          | 75    |
 
 ## Tech Requirements
 The project requires Java 24. If you have multiple JVMs on your machine, you might want to consider using a tool such as sdkman to handle switching between versions.

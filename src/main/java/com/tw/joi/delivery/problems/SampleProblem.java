@@ -2,6 +2,7 @@ package com.tw.joi.delivery.problems;
 
 public class SampleProblem {
     public static void main(String[] args) {
+        System.out.println();
         SampleProblem sample = new SampleProblem();
         double cost = sample.calculateCost(8.0); // Example distance
         System.out.println("Delivery cost for 8 km: ₹" + cost);
